@@ -4,5 +4,6 @@ __pycache__/
 node_modules/
 *.py[cod]
 venv/
+output/
 .vscode
 *.code-workspace
