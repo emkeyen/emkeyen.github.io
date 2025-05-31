@@ -3,7 +3,6 @@
 __pycache__/
 node_modules/
 *.py[cod]
-output/
 venv/
 .vscode
 *.code-workspace
