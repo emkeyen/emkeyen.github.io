@@ -4,10 +4,8 @@ SITEURL = 'http://127.0.0.1:8000/'
 TIMEZONE = 'Europe/Kyiv'
 DEFAULT_LANG = 'en'
 
-SUBTITLE = 'hello world'
-SUBTEXT = '''My name is Mykhail 🧑🏻‍💻 and I enjoy transforming ideas into technical solutions. 
-I'm a tech enthusiast who loves automating and testing things. I program in Python, TypeScript and Bash, am a Linux fan, and currently learning Golang. Welcome to my technical blog.
-'''
+SUBTITLE = 'Technical Notes'
+SUBTEXT = '''Thoughts and experiments in tech, code, and automation.'''
 COPYRIGHT = '©2025'
 PATH = 'content'
 THEME = 'themes/papyrus'
