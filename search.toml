@@ -1,0 +1,8 @@
+[input]
+html_selector = "main"
+base_directory = "/home/emkeyen/Blog/pyblog2/output"
+
+[[input.files]]
+path = "custom-html-pytest-reporter.html"
+url = "/custom-html-pytest-reporter.html"
+title = "Custom HTML pytest reporter"
