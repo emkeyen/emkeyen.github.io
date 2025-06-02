@@ -1,5 +1,6 @@
 Title: Building and Testing a Minimal REST API in Go using httpserver, httptest, testing & testify
 Category: Testing
+Date: 2025-06-02
 Tags: go, go testing, rest, testing, http, testify, httpserver, httptest
 Slug: go-server-rest-api-test
 Summary: A quick walkthrough of building and testing a tiny REST API in Go using the standard library and testify.
