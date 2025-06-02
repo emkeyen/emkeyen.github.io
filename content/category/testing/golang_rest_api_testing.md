@@ -1,11 +1,10 @@
-Title: Building and Testing a Minimal REST API in Go using httptest, testing & testify assertions
-Date: 2025-06-02 
-Category: Go, Testing, API
-Tags: go, rest, testing, http, testify
+Title: Building and Testing a Minimal REST API in Go using httpserver, httptest, testing & testify
+Category: Testing
+Tags: go, go testing, rest, testing, http, testify, httpserver, httptest
 Slug: go-server-rest-api-test
 Summary: A quick walkthrough of building and testing a tiny REST API in Go using the standard library and testify.
 
-In this post, we’ll build a minimal REST API in Go with in-memory storage and test it using Go’s standard `testing` package and the `testify` library.
+In this post, we’ll build a minimal (just for testing purposes) REST API in Go with in-memory storage using `httpserver` and test it using Go’s standard `testing` package, `httptest` as a part of `httpserver` and the `testify` library.
 
 The complete source code is available on GitHub:  
 [https://github.com/emkeyen/go_server_test_api](https://github.com/emkeyen/go_server_test_api){:target="_blank"}
@@ -188,7 +187,7 @@ Here’s the code:
 
 ## Test File
 
-Before running the server for real, it’s smart to check if everything behaves right. This test file does just that - it uses Go’s built-in `testing` package to organize and run tests, and the `httptest` package to fake HTTP requests without starting a real server, so tests run fast and isolated.
+The test file below uses Go’s built-in `testing` package to organize and run tests, and the `httptest` package to fake HTTP requests without starting a real server, so tests run fast and isolated.
 The `testify` library helps write clear and expressive assertions, making tests easier to read and maintain.
 
 The tests cover all main user actions (create, read, update, delete) plus edge cases like missing or invalid data. The `testing` package runs the test functions, while `httptest` mocks requests and responses. Importantly, the server never actually runs during tests, so they’re quick and safe.
