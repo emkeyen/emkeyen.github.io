@@ -49,7 +49,7 @@ RSS_FEED_SUMMARY_ONLY = True
 
 # Social widgets
 SOCIAL = (
-    ('github', 'https://github.com/emkeyen96/'),
+    ('github', 'https://github.com/emkeyen/'),
     ('telegram', 'https://t.me/emkeyen'),
     ('linkedin', 'https://linkedin.com/in/emkeyen'),
 )
