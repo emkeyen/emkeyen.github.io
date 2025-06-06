@@ -4,7 +4,6 @@ Date: 2025-06-06
 Tags: postman, jmeter, python
 Slug: postman-to-jmeter-converter
 Summary: Converter written in Python 3 for Postman API collections & env into JMeter (jmx) test plans.
-URL: https://github.com/emkeyen/postman-to-jmx
 
 If you've ever had to migrate Postman API tests into JMeter for load testing, you know the drill: either you manually recreate everything (pain), or you find some hacky tool that half-works. So I wrote a script in Python to make this a bit less annoying.
 
