@@ -7,3 +7,4 @@ venv/
 output/
 .vscode
 *.code-workspace
+.env
